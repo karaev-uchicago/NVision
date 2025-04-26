@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project provides a robust, automated pipeline for detecting and visualizing Nitrogen-Vacancy (NV) centers in diamonds using Fluorescence Scanning Microscopy (FSM) data. It used test data from Argonne National Lab and includes Python scripts and a GUI for:
+This project provides a robust, automated pipeline for detecting and visualizing Nitrogen-Vacancy (NV) centers in diamonds using Fluorescence Scanning Microscopy (FSM) data. It uses test data from Argonne National Lab and includes Python scripts and a GUI for:
 
 - Loading FSM scan data (JSON format)
 - Detecting NV centers via adaptive image processing

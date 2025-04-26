@@ -165,8 +165,6 @@ MIT License
 
 ## Contact
 
-For questions or contributions, please open an issue or contactany of us.
-
----
+For questions or contributions, please open an issue or contact any of us.
 
 ---

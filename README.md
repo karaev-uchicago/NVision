@@ -165,20 +165,8 @@ MIT License
 
 ## Contact
 
-For questions or contributions, please open an issue or contact the project maintainer.
-
----[6]: https://pplx-res.cloudinary.com/image/private/user_uploads/vdxnzXzhBCloOkj/fig_041025_190714.jpg[7]: https://pplx-res.cloudinary.com/image/private/user_uploads/SRymVxtkwDbpMWY/fig_040725_194501.jpg[8]: https://pplx-res.cloudinary.com/image/private/user_uploads/ynJiLTRrOebedil/fig_040825_105623.jpg[9]: https://pplx-res.cloudinary.com/image/private/user_uploads/aUVTyEkcBlykHCj/fig_040725_190307.jpg
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/64999561/d7c0d08e-09f9-41a8-8ed6-b9c3b83192a8/DemoNotebook.ipynb
-[2] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/64999561/30f62f81-678e-4ec5-9108-dfea51138c32/fsmScan040725_190307final.json
-[3] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/64999561/597893f4-18d5-416c-b3b6-4e1831b0df90/fsmScan040825_105623final.json
-[4] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/64999561/455ec74b-a98b-40e5-bdec-f861c8712ee5/fsmScan040725_194501final.json
-[5] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/64999561/b0f5cc36-ead0-4cbb-a406-f5fd68cfa0e9/fsmScan041025_190714final.json
-[6] https://pplx-res.cloudinary.com/image/private/user_uploads/vdxnzXzhBCloOkj/fig_041025_190714.jpg
-[7] https://pplx-res.cloudinary.com/image/private/user_uploads/SRymVxtkwDbpMWY/fig_040725_194501.jpg
-[8] https://pplx-res.cloudinary.com/image/private/user_uploads/ynJiLTRrOebedil/fig_040825_105623.jpg
-[9] https://pplx-res.cloudinary.com/image/private/user_uploads/aUVTyEkcBlykHCj/fig_040725_190307.jpg
+For questions or contributions, please open an issue or contactany of us.
 
 ---
-Answer from Perplexity: pplx.ai/share
+
+---

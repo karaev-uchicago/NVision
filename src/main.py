@@ -176,7 +176,7 @@ def process_fsm_files(file_paths, output_dir=None, **kwargs):
 if __name__ == "__main__":
     # Replace with actual paths to your JSON files
     file_paths = [
-        "assets/data/fsmScan040725_190307final.json"
+        # Path goes here
     ]
     
     results = process_fsm_files(

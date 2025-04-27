@@ -75,9 +75,9 @@ def detect_nv_centers(data, threshold_factor=2.0, min_distance=5, min_peak_heigh
     y_indices = coordinates[:, 0]
     x_indices = coordinates[:, 1]
     
-    # Calculate actual positions in microns
+    # Reverse the y-axis to match the plot's orientation
+    y_positions = np.interp(y_indices, np.arange(len(y_steps)), y_steps[::-1])  # Reverse y_steps
     x_positions = np.interp(x_indices, np.arange(len(x_steps)), x_steps)
-    y_positions = np.interp(y_indices, np.arange(len(y_steps)), y_steps)
     
     # Get intensity values at the peaks
     intensities = [scan_counts[y, x] for y, x in coordinates]

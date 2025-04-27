@@ -204,8 +204,26 @@ def process_fsm_files(file_paths, output_dir=None, **kwargs):
             # Visualize and save results if output directory is provided
             if output_dir:
                 base_name = os.path.splitext(os.path.basename(file_path))[0]
-                visualize_results(data, results, 
-                                os.path.join(output_dir, f"{base_name}_results.png"))
+                # Save PNG
+                visualize_results(
+                    data, results,
+                    os.path.join(output_dir, f"{base_name}_results.png")
+                )
+                # Prepare results for JSON serialization
+                json_results = {
+                    'file': os.path.basename(file_path),
+                    'params': data.get('params', {}),
+                    'coordinates': results['coordinates'].tolist() if results['coordinates'] is not None else [],
+                    'x_positions': results['x_positions'].tolist() if results['x_positions'] is not None else [],
+                    'y_positions': results['y_positions'].tolist() if results['y_positions'] is not None else [],
+                    'intensities': results['intensities'] if results['intensities'] is not None else [],
+                    'threshold': results.get('threshold', None),
+                    # Optionally, you can add more fields as needed
+                }
+                # Save JSON
+                json_path = os.path.join(output_dir, f"{base_name}_results.json")
+                with open(json_path, 'w') as jf:
+                    json.dump(json_results, jf, indent=2)
             else:
                 visualize_results(data, results)
             
